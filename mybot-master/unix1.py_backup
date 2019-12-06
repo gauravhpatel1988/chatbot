@@ -1,0 +1,8 @@
+#! /usr/bin/python3
+import subprocess 
+import os
+def getOS():
+   command = "hostname"
+   x = subprocess.Popen(command).communicate()[0]
+   return x 
+getOS()

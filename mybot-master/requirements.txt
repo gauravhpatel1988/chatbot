@@ -1,0 +1,10 @@
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+--trusted-host=pip.mycompany.com
+--trusted-host=files.pythonhosted.org
+Flask>=0.12
+chatterbot==0.8.7
+SQLAlchemy>=1.2,<1.3
+Pillow>=5.0
+pytz>=2018
+pyperclip
